@@ -26,6 +26,28 @@ npm start
 ### 修改入口文件
 修改index.html中的div的id属性为id="fly"(id名自取), 以匹配应用的名称.
 
-修改index.js
+修改index.js：
+```jsx
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './css/index.css'; // 修改路径
+import registerServiceWorker from './js/registerServiceWorker'; // 修改路径
+import Logo from './js/components/Logo'; // 导入组件
+
+ReactDOM.render(
+  <div>
+    <h1>
+      <Logo /> Welcome to Whinepad!
+    </h1>
+  </div>,
+  document.getElementById('fly')
+); // 修改id属性
+
+// 为用户在本地创建一个service worker 来缓存资源到本地，提升应用的访问速度
+registerServiceWorker(); 
+```
 
 ### 开始创建组件
+
+#### Logo组件
+
