@@ -1,0 +1,72 @@
+/* ComicCategoryRow组件*/
+.comiccategoryrow{
+	border: 1px solid white;
+	border-radius: 10px;
+	font-size: 20px;
+	font-family:楷体;
+	background-color: pink;
+}
+
+/* ComicRow组件 */
+.comicrow{
+	background-color: MistyRose;
+	text-align: center;
+	font-family:楷体;
+}
+
+.comicrow-tb{
+	border-radius: 5px;
+}
+
+.text-intro{
+	text-align:left;
+}
+/* ComicTable组件 */
+.comictable{
+	border: 1px solid pink;
+	margin: auto;
+	border-radius: 15px;
+}
+
+.comictable-th{
+	/* border: 1px solid white; */
+	border-radius: 15px;
+	font-size: 20px;
+	font-family: 楷体;
+	background-color: pink;
+}
+
+/* FilterableComicTable 组件*/
+.wrap{
+	border: 1px solid white;
+	margin: 2px auto;
+}
+
+/* SearchBar组件 */
+form{
+	text-align: center;
+	font-family: 楷体;
+	font-size: 15px;
+}
+
+.textName{
+	margin-top: 10px;
+	margin-left: 10px;
+	border:1px solid #a1a1a1;
+  padding:10px 40px; 
+  width:400px;
+  border-radius:15px;
+}
+
+p{
+	margin: 5px;
+	padding: 5px
+}
+
+.box1{
+margin: 10px;
+}
+
+.box2{
+margin: 10px;
+}

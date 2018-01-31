@@ -1,0 +1,193 @@
+/*DiscussList组件 */
+.listRootViewStyle {
+  background-color: #eee; /**背景色*/
+  padding: 10px;  /**设置内边距**/
+}
+
+
+/* DiscussListItem组件 */
+.item{
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+}
+
+/*顶部view样式*/
+.topRightView{
+  display: flex;
+  flex-direction: column;
+  flex:1
+}
+
+/*昵称和发送时间样式*/
+.nickNameAndSendTime{
+  display: flex;
+  justify-content: space-between; /*主轴的对齐方式*/
+  font-family: 楷体;
+  font-size: 18px;
+  color: orangered;
+}
+
+.dis-content{
+  font-family: 宋体;
+  font-size: 18px;
+}
+
+/**头像列表组件*/
+.imgStyle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+
+/*横线样式*/
+.hrStyle{
+  margin-top: 1px;
+}
+
+.ulStyle{
+  display:flex;
+  height: 45px;
+  align-items: center;
+  margin-left: -40px;
+}
+
+/*点赞 转发*/
+.liStyle{
+  display: flex;
+  /* color: orangered; */
+  flex: 1.0;
+  font-size: 18px;
+  font-family: 宋体;
+  justify-content: center;
+}
+
+.commentViewStyle{
+  background-color: #fff;
+  margin-top: -17px;
+}
+
+.shuxian{
+  height: 20px;
+  width: 1px;
+  background-color: grey;
+}
+
+
+
+/* CommentForm组件 */
+/*根样式*/
+.rootView{
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 20px;
+}
+
+/*评论头头像，文本框，按钮样式*/
+.headView{
+  display: flex;
+  background: #fff;
+}
+
+/*昵称样式*/
+.nickNameStyle{
+  display: flex;
+  flex-direction: column;
+}
+
+.con-name{
+  font-size: 18px;
+  font-family: 楷体;
+}
+
+.content{
+  font-size: 18px;
+  font-family: 宋体;
+}
+
+/**
+ * 评论列表样式
+ */
+.commentListStyle{
+  padding-left: 80px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: flex-start;
+}
+
+
+/**
+ * 评论内容样式
+ */
+.commentContentStyle{
+  display: flex;
+  flex:1;
+  margin-left: 15px;
+  justify-content: space-between;
+  font-size: 18px;
+  font-family: 宋体;
+}
+
+.img{
+  width: 50px;
+  height: 50px;
+}
+
+/**
+ * 评论内容样式
+ */
+.textareaViewStyle{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: 宋体;
+}
+
+/**
+ * 评论按钮样式
+ */
+.commentBtnStyle{
+  width: 100px;
+  background: #ff8146;
+  margin-top: 10px;
+  border: 1px solid #f77c3d;
+  color: #fff;
+  height: 25px;
+  font-size: 14px;
+}
+
+/**
+ * 时间字体大小
+ */
+.timeSize{
+  font-size: 18px;
+  font-family: 楷体;
+}
+
+
+
+/* DiscussListImgs组件 */
+.imgShow{
+  width: 100%;
+  height: 100%;
+}
+
+.ulstyle{
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.liStyle{
+  list-style:none;
+  float:left;
+  margin-right: 10px;
+  margin-top: 10px;
+  align-self: center;
+}

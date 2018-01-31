@@ -1,0 +1,33 @@
+body { 
+  background-color: pink; 
+  padding: 20px; 
+  margin: 0; 
+}
+ 
+ul.header li{ 
+  display: inline; 
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+  font-family: 宋体;
+  font-size: 22px;
+} 
+
+ul.header li a { 
+  color: black; 
+  font-weight: bold; 
+  text-decoration: none; 
+  margin: 0;
+  padding: 15px; 
+  display: inline-block; 
+} 
+
+.content { 
+  background-color:#FFF; 
+  padding: 10px;
+  margin: 0; 
+} 
+
+.active { 
+  background-color: pink;
+}

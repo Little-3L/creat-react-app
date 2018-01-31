@@ -1,0 +1,50 @@
+html {
+  background: white;
+  padding: 0;
+  margin: 0;
+  font: 18px Arial;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0px auto;
+  background-color:white;
+  position: relative;
+}
+
+.header{
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  border-bottom: 2px solid pink;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.header-logo{
+  height: 50px;
+  float: left;
+}
+
+.header-clock{
+  height: 50px;
+  font-size: 40px;
+  font-family: Comic Sans MS;
+  float: right;
+} 
+
+.word{
+  font-size: 40px;
+  font-family: Comic Sans MS;
+  float: left;
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+}
+
+
