@@ -20,4 +20,12 @@ create-react-app my-app
 cd my-app/
 npm start
 ```
-### 开始构建程序
+### 创建目录
+在src目录下创建子目录js, css, images, 以及相应目录下的components
+
+### 修改入口文件
+修改index.html中的div的id属性为id="fly"(id名自取), 以匹配应用的名称.
+
+修改index.js
+
+### 开始创建组件
