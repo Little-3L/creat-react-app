@@ -50,9 +50,9 @@ registerServiceWorker();
 ### 开始创建组件
 
 #### Logo组件
-#### Clock组件
+#### Clock实时显示时间组件
 #### react-router
 #### Slider轮播组件
 #### Filter Table搜索筛选组件
 #### Comment点赞评论组件
-#### Table简单应用
+#### Table的简单应用
